@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="inetBankingV1" duration-ms="92465" started-at="2019-08-05T15:14:10Z" finished-at="2019-08-05T15:15:43Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="92465" started-at="2019-08-05T15:14:10Z" finished-at="2019-08-05T15:15:43Z">
+      <class name="com.inetBankingV1.testCases.TestcaseDDT002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBankingV1.testCases.TestcaseDDT002@754ba872]" name="setup" is-config="true" duration-ms="10714" started-at="2019-08-05T15:14:59Z" finished-at="2019-08-05T15:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBankingV1.testCases.TestcaseDDT002@754ba872]" name="DDT" duration-ms="15262" started-at="2019-08-05T15:15:15Z" data-provider="Data" finished-at="2019-08-05T15:15:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avijitrout.2010@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rout@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method status="PASS" signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:com.inetBankingV1.testCases.TestcaseDDT002@754ba872]" name="DDT" duration-ms="12199" started-at="2019-08-05T15:15:30Z" data-provider="Data" finished-at="2019-08-05T15:15:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avijitrout.2010@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rout@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.inetBankingV1.testCases.TestcaseDDT002@754ba872]" name="teardown" is-config="true" duration-ms="373" started-at="2019-08-05T15:15:43Z" finished-at="2019-08-05T15:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetBankingV1.testCases.TestcaseDDT002 -->
+      <class name="com.inetBankingV1.testCases.Testcase001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.inetBankingV1.testCases.Testcase001@e25b2fe]" name="setup" is-config="true" duration-ms="34620" started-at="2019-08-05T15:14:11Z" finished-at="2019-08-05T15:14:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.inetBankingV1.testCases.Testcase001@e25b2fe]" name="logintest" duration-ms="11651" started-at="2019-08-05T15:14:45Z" finished-at="2019-08-05T15:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.inetBankingV1.testCases.Testcase001@e25b2fe]" name="teardown" is-config="true" duration-ms="2288" started-at="2019-08-05T15:14:57Z" finished-at="2019-08-05T15:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.inetBankingV1.testCases.Testcase001 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- inetBankingV1 -->
+</testng-results>
